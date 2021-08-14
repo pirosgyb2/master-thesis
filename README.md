@@ -1,5 +1,5 @@
 ## A financial managing and tracking Android app with Ktor backend
-This project was my thesis for my Master degree. I wrote both the mobile app and backend in **Kotlin**.
+This project was my thesis for my Master degree. I wrote both the mobile app and backend in **Kotlin**. I made it in MVVM architecture with dependecy injection (**Dagger 2**).
 The code is private, here I just share the details about the project.
 
 ### Features
@@ -34,11 +34,30 @@ Here the user should scan the receipt. The app will recognize the text and write
  
 This category system has a parent-children hierarchy. I designed this system to be able to make more precise analysis. Main categories are for the transactions and the subcategories only for the transaction elements. The app handles the category deletion too. It checks the database and deletes them from the previously added and saved transactions too.
 
+* **Charts**
 
+* **Revoult like date interval selector**
+
+* **Transparent statusbar, custom navigationbar**
+
+* **Communication with the backend, local database**
+
+The app refreshes its database on every login and app start. Also it documents every changes in the server first and then if it was successful the app does it too.
+
+* **JUnit tests**
+* 
+I did a few JUnit tests also to try it out. The dependecy injection came in handy there too.
+
+* **Fragment Navigation Pattern with centralized navigation**
+
+I used the Navigation library from the Jetpack and I centralized all navigation methods into one class. Also I followed the fragment navigaiton patter so there is one Main activity and the pages are fragments in this activity. For screens that are logically too different I used individual activity: scanning, date interval changing, category selection/editng.
 
 ### Used third party libraries
 * Kotlin
 * ABBYY Real-Time Recognition SDK
-* WilliamChart
+* MPAndroidChart
 * Room Persistence Library
-* Flexbox
+* Ktor
+* Dagger2
+* BeeKeeperStudio(?)
+* Prs valami SQL
