@@ -90,6 +90,8 @@ The last widget shows information about the categories. The interval selection a
 
 For the charts I did a date interval selector screen. I made the design based on Revoult's date selector page. I made it reusable. In the future I planning to create a library about it with more features. The user now can select a year, a month or a week. It shows the actual date in all of the 3 pages. The pageing is smart. For example in the month page it can happen that a few days are visible from the next month. If these days are clicked the month interval automatically jumps to that month. Also the user can set everything to the defaults which is the actual date.
 
+<img src="https://user-images.githubusercontent.com/37157607/129448846-3d983bd0-a02b-4b6b-9556-ddad1792d6ea.gif" width="265" height="574">
+
 * **Transparent statusbar, custom navigationbar**
 
 In Android it's hard to create a transparent statusbar. I did a trick. I draw the activity to the whole screen without the statusbar and then set the proper padding to the root layout to be under the statusbar. To get the actual size of the statusbar I set a window insets listener. From that I will get the height of the statusbar which is important because there is a lot of device with different notch at the top. 
