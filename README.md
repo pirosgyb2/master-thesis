@@ -36,7 +36,11 @@ This category system has a parent-children hierarchy. I designed this system to 
 
 * **Charts**
 
-The charts are very useful, they show a lot of information. The first widget contains details about the
+The charts are very useful. I show a lot of information on that page. The first widget is a short summary about total money, goal status and the actual month and week data.
+
+The next widget is about expense and income. The interval is selectable it can be a year, a month or a week. The user can change these intervals fastly by clicking the arrows or choose it with the date interval selector page. The x axis shows the days the y axis shows the money amount. With the button in the bottom right corner the lines in the chart can be turned off one by one. Also the chart is zoomable in both direction.
+
+The last widget shows information about the categories.
 
 * **Revoult like date interval selector**
 
