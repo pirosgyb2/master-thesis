@@ -36,28 +36,43 @@ This category system has a parent-children hierarchy. I designed this system to 
 
 * **Charts**
 
+The charts are very useful, they show a lot of information. The first widget contains details about the
+
 * **Revoult like date interval selector**
 
+For the charts I did a date interval selector screen. I made the design based on Revoult's date selector page. I made it reusable. In the future I planning to create a library about it with more features. The user now can select a year, a month or a week. It shows the actual date in all of the 3 pages. The pageing is smart. For example in the month page it can happen that a few days are visible from the next month. If these days are clicked the month interval automatically jumps to that month. Also the user can set everything to the defaults which is the actual date.
+
 * **Transparent statusbar, custom navigationbar**
+
+In Android it's hard to create a transparent statusbar. I did a trick. I draw the activity to the whole screen without the statusbar and then set the proper padding to the root layout to be under the statusbar. To get the actual size of the statusbar I set a window insets listener. From that I will get the height of the statusbar which is important because there is a lot of device with different notch at the top. 
+
+I did a custom navigationbar. To its top I made a smooth gradient. This is visible when there is a scrollable content.
 
 * **Communication with the backend, local database**
 
 The app refreshes its database on every login and app start. Also it documents every changes in the server first and then if it was successful the app does it too.
 
 * **JUnit tests**
-* 
-I did a few JUnit tests also to try it out. The dependecy injection came in handy there too.
+ 
+I did a few JUnit tests also. The dependecy injection came in handy there too.
 
 * **Fragment Navigation Pattern with centralized navigation**
 
 I used the Navigation library from the Jetpack and I centralized all navigation methods into one class. Also I followed the fragment navigaiton patter so there is one Main activity and the pages are fragments in this activity. For screens that are logically too different I used individual activity: scanning, date interval changing, category selection/editng.
 
 ### Used third party libraries
+**Mobile app**
 * Kotlin
 * ABBYY Real-Time Recognition SDK
 * MPAndroidChart
 * Room Persistence Library
-* Ktor
 * Dagger2
-* BeeKeeperStudio(?)
-* Prs valami SQL
+* Navigation component
+* Kotlin Coroutines
+
+**Backend**
+* Ktor
+* Kotlin
+* Hikari
+* Beekeeper Studio
+* PostgreSQL
