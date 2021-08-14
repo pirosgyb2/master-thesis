@@ -32,6 +32,8 @@ The user can create goals to save money. For example for a new bike the user can
 
 Transaction types: income, expense, saving. The list groups the transactions by day. It shows the most important data of the transactions. The transactions are deletable by long click. 
 
+<img src="https://user-images.githubusercontent.com/37157607/129448970-485cba71-cef8-4d50-9e7f-f8862e41eec6.gif" width="265" height="574"> 
+
 * **Create a transaction, detials page**
 
 A transaction contains elements. By adding categories to these elements the user can get more detials in charts. The user can set the name, date, time, main categories, add/scan/delete elements. For the elements he/she can set the name, price and subcategory. I made the app to be smart so when the user selects a subcategory, the app automaticly adds its parent category to the transaction's main category list. Also if there is a lot of element we can hide the top part of the screen to see just the elements.
