@@ -40,7 +40,7 @@ A transaction contains elements. By adding categories to these elements the user
    <img src="https://user-images.githubusercontent.com/37157607/129448150-f0737019-f584-4c2f-90e4-8032e660c70a.gif" width="265" height="574">
    <img  width="10" height="1" src="">
 
-   <img src="https://user-images.githubusercontent.com/37157607/129448074-ed432ba8-de1b-4351-97af-552361dfd972.gif" width="265" height="574"> 
+   <img src="https://user-images.githubusercontent.com/37157607/129448641-cdde3354-8da3-4719-9b90-cac2eb965a93.gif" width="265" height="574"> 
    <img  width="10" height="1" src="">
  
    <img src="https://user-images.githubusercontent.com/37157607/129448074-ed432ba8-de1b-4351-97af-552361dfd972.gif" width="265" height="574"> 
