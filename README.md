@@ -61,7 +61,7 @@ This category system has a parent-children hierarchy. I designed this system to 
    <img src="https://user-images.githubusercontent.com/37157607/129448036-3304a874-ca4a-4afe-ade3-dc247d0da138.gif" width="265" height="574">
    <img  width="10" height="1" src="">
 
-   <img src="https://user-images.githubusercontent.com/37157607/129448036-3304a874-ca4a-4afe-ade3-dc247d0da138.gif" width="265" height="574"> 
+   <img src="https://user-images.githubusercontent.com/37157607/129448908-287bc44b-597d-43a7-86c5-d18ca2e850e3.gif" width="265" height="574"> 
    <img  width="10" height="1" src="">
  </p>
 
