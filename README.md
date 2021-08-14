@@ -118,6 +118,11 @@ I used the Navigation library from the Jetpack and I centralized all navigation 
 * Dagger2
 * Navigation component
 * Kotlin Coroutines
+* Retrofit
+* ConstraintLayout
+* Material components
+* LeakCanary
+* JUnit
 
 **Backend**
 * Ktor
