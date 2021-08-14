@@ -27,6 +27,7 @@ The user can create goals to save money. For example for a new bike the user can
    <img  width="10" height="1" src="">
 
  </p>
+ 
 * **Lists transactions**
 
 Transaction types: income, expense, saving. The list groups the transactions by day. It shows the most important data of the transactions. The transactions are deletable by long click. 
